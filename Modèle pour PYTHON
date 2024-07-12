@@ -1,0 +1,100 @@
+import json
+
+def analyze_responses(response_data):
+    # Analyser les informations générales
+    company_name = response_data.get("company_name")
+    industry = response_data.get("industry")
+    employee_count = response_data.get("employee_count")
+    year_founded = response_data.get("year_founded")
+
+    # Analyser l'identité de marque
+    brand_guidelines_exists = response_data.get("brand_guidelines_exists")
+    if brand_guidelines_exists == "Oui":
+        brand_guidelines_link = response_data.get("brand_guidelines_link")
+        # Utiliser le lien pour télécharger et analyser la charte graphique
+    else:
+        primary_colors = response_data.get("primary_colors")
+        secondary_colors = response_data.get("secondary_colors")
+        # Créer des palettes de couleurs basées sur les réponses
+
+    slogan = response_data.get("slogan_text")
+    values_description = response_data.get("values_description")
+    communication_channels = response_data.get("channels_used")
+    social_media_links = response_data.get("social_media_links")
+
+    # Analyser la présence numérique
+    website_exists = response_data.get("website_exists")
+    if website_exists == "Oui":
+        website_url = response_data.get("website_url")
+        # Déclencher l'extension CSS Peeper pour extraire les typos, couleurs, et médias du site web
+
+    social_media_usage = response_data.get("social_media_usage")
+    if social_media_usage == "Oui":
+        social_media_platforms = response_data.get("social_media_platforms")
+        # Analyser les plateformes de médias sociaux utilisées
+
+    content_strategy_exists = response_data.get("content_strategy_exists")
+    if content_strategy_exists == "Oui":
+        content_strategy_overview = response_data.get("content_strategy_overview")
+        # Utiliser l'aperçu de la stratégie de contenu pour développer des plans de contenu
+
+    performance_measurement_methods = response_data.get("performance_measurement_methods")
+    analytics_tools = response_data.get("analytics_tools")
+
+    # Analyser la transformation numérique
+    transformation_initiative_exists = response_data.get("transformation_initiative_exists")
+    if transformation_initiative_exists == "Oui":
+        transformation_initiatives_description = response_data.get("transformation_initiatives_description")
+
+    tools_used = response_data.get("tools_used")
+    main_tools_list = response_data.get("main_tools_list")
+
+    challenges_exists = response_data.get("challenges_exists")
+    if challenges_exists == "Oui":
+        challenges_description = response_data.get("challenges_description")
+
+    transformation_goals_description = response_data.get("transformation_goals_description")
+
+    # Analyser la vision et les objectifs futurs
+    long_term_goals_description = response_data.get("long_term_goals_description")
+    future_projects_description = response_data.get("future_projects_description")
+
+    # Déclencher des automatisations et actions basées sur les réponses analysées
+    # Exemple : générer des mentions légales, configurer des automatisations Zapier, etc.
+
+    print("Analyse terminée. Les automatisations nécessaires ont été déclenchées.")
+
+# Exemple de données de réponse (à remplacer par les données réelles)
+response_data_example = {
+    "company_name": "SoloBoost",
+    "industry": "Technologie",
+    "employee_count": 50,
+    "year_founded": 2010,
+    "brand_guidelines_exists": "Non",
+    "primary_colors": ["#000000", "#FFFFFF"],
+    "secondary_colors": ["#FF5733"],
+    "slogan_text": "Boost Your Solo",
+    "values_description": "Innovation, Excellence, Customer Satisfaction",
+    "channels_used": ["Email", "Social Media"],
+    "social_media_links": ["https://facebook.com/soloboost", "https://twitter.com/soloboost"],
+    "website_exists": "Oui",
+    "website_url": "https://soloboost.com",
+    "social_media_usage": "Oui",
+    "social_media_platforms": ["Facebook", "Twitter", "LinkedIn"],
+    "content_strategy_exists": "Oui",
+    "content_strategy_overview": "Publier des articles de blog et des vidéos régulièrement.",
+    "performance_measurement_methods": "Google Analytics, SEMrush",
+    "analytics_tools": ["Google Analytics", "SEMrush"],
+    "transformation_initiative_exists": "Oui",
+    "transformation_initiatives_description": "Mise en place d'un CRM et d'une stratégie de marketing automation.",
+    "tools_used": ["Google Workspace", "Slack", "Trello"],
+    "main_tools_list": ["Google Workspace", "Slack", "Trello"],
+    "challenges_exists": "Oui",
+    "challenges_description": "Intégration des systèmes existants avec le nouveau CRM.",
+    "transformation_goals_description": "Améliorer l'efficacité opérationnelle et augmenter les ventes.",
+    "long_term_goals_description": "Devenir leader du marché en matière de technologie innovante.",
+    "future_projects_description": "Lancer une application mobile pour les clients."
+}
+
+# Analyser les données de réponse
+analyze_responses(response_data_example)
