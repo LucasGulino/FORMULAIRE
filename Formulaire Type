@@ -1,0 +1,65 @@
+Formulaire de Collecte d'Informations
+Voici un formulaire structuré que vous pouvez utiliser pour collecter les informations nécessaires. Chaque section du formulaire est accompagnée d'un identifiant unique (champ) pour faciliter l'analyse et l'automatisation ultérieure.
+
+Informations Générales
+Nom de l'entreprise : (company_name)
+Secteur d'activité : (industry)
+Nombre d'employés : (employee_count)
+Année de création : (year_founded)
+
+Identité de Marque
+Charte graphique : (brand_guidelines)
+
+Avez-vous une charte graphique établie ? (Oui/Non) (brand_guidelines_exists)
+Si oui, fournir le lien ou les fichiers. (brand_guidelines_link)
+Si non, quelles sont les couleurs principales et secondaires souhaitées ? (primary_colors, secondary_colors)
+Slogan : (slogan)
+
+Votre entreprise a-t-elle un slogan ? Si oui, lequel ? (slogan_text)
+Valeurs de l'entreprise : (company_values)
+
+Comment décririez-vous les valeurs de votre entreprise ? (values_description)
+Canaux de communication : (communication_channels)
+
+Quels sont vos principaux canaux de communication avec vos clients ? (channels_used)
+Fournir les liens des profils sur les réseaux sociaux. (social_media_links)
+Présence Numérique
+Site web : (website)
+
+Votre entreprise dispose-t-elle d'un site web ? (Oui/Non) (website_exists)
+Si oui, fournir l'URL du site web. (website_url)
+Réseaux sociaux : (social_media)
+
+Utilisez-vous des réseaux sociaux pour l'engagement client ? (Oui/Non) (social_media_usage)
+Si oui, quels réseaux sociaux utilisez-vous ? (social_media_platforms)
+Stratégie de contenu numérique : (digital_content_strategy)
+
+Avez-vous une stratégie de contenu numérique ? (Oui/Non) (content_strategy_exists)
+Si oui, fournir un bref aperçu de cette stratégie. (content_strategy_overview)
+Mesure de l'efficacité en ligne : (online_performance_measurement)
+
+Comment mesurez-vous l'efficacité de votre présence en ligne ? (performance_measurement_methods)
+Utilisez-vous des outils d'analyse spécifiques (Google Analytics, etc.) ? (analytics_tools)
+Transformation Numérique
+Initiative de transformation numérique : (digital_transformation_initiative)
+
+Votre entreprise a-t-elle entamé une transformation numérique ? (Oui/Non) (transformation_initiative_exists)
+Si oui, décrire brièvement les initiatives prises. (transformation_initiatives_description)
+Outils numériques utilisés : (digital_tools)
+
+Quels outils numériques votre entreprise utilise-t-elle au quotidien ? (tools_used)
+Fournir une liste des principaux outils. (main_tools_list)
+Défis rencontrés : (challenges_faced)
+
+Rencontrez-vous des défis dans l'implémentation de technologies numériques ? (Oui/Non) (challenges_exists)
+Si oui, lesquels ? (challenges_description)
+Objectifs de la transformation numérique : (transformation_goals)
+
+Quels objectifs visez-vous à atteindre grâce à la transformation numérique ? (transformation_goals_description)
+Vision et Objectifs Futurs
+Objectifs à long terme : (long_term_goals)
+
+Quels sont les objectifs à long terme de votre entreprise concernant l'identité de marque et la transformation numérique ? (long_term_goals_description)
+Projets futurs : (future_projects)
+
+Existe-t-il des projets spécifiques que vous souhaitez mettre en œuvre dans les prochaines années ? (future_projects_description)
